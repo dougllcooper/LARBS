@@ -1,5 +1,20 @@
 # Luke's Auto-Rice Bootstraping Scripts (LARBS)
 
+## My modifications:
+
+Modified from Luke's original in the following ways:
+1. Removed calcurse and went with thunderbird for
+   email, and calendar. Couldn't get calcurse to sync
+   with gmail. Sync worked up to the authcode, then no
+   connection afterward.
+2. Added emacs with doom-emacs installed on top. Doom emacs not
+   installed with script.
+3. Utilities added used by doom emacs layers.
+4. libreoffice, gimp, and a bunch of utilities used by
+   different things.
+5. Modified a few of the i3blocks scripts. Couldn't get them
+   to work as is. (battery, disk, internet). Wouldn't work with
+   printf in them. I use zsh, maybe that's the problem.
 
 ## Installation:
 
