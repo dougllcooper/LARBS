@@ -15,7 +15,8 @@ while getopts ":a:r:b:p:h" o; do case "${o}" in
 esac done
 
 # DEFAULTS:
-[ -z "$dotfilesrepo" ] && dotfilesrepo="https://github.com/dougllcooper/voidrice.git" && repobranch="archi3"
+[ -z "$dotfilesrepo" ] && dotfilesrepo="https://github.com/dougllcooper/voidrice.git" && repobranch="master"
+[ -z "$doomrepo" ] && doomrepo="https://github.com/hlissner/doom-emacs" && drepobranch="develop"
 [ -z "$progsfile" ] && progsfile="https://raw.githubusercontent.com/dougllcooper/LARBS/master/archi3/progs.csv"
 [ -z "$aurhelper" ] && aurhelper="yay"
 [ -z "$repobranch" ] && repobranch="master"
@@ -203,8 +204,8 @@ installationloop
 putgitrepo "$dotfilesrepo" "/home/$name" "$repobranch"
 rm -f "/home/$name/README.md" "/home/$name/LICENSE"
 
-# Install the LARBS Firefox profile in ~/.mozilla/firefox/
-putgitrepo "https://github.com/LukeSmithxyz/mozillarbs.git" "/home/$name/.mozilla/firefox"
+# Install doom emacs in user's home directory
+putgitrepo "$doomrepo" "/home/$name/.emacs.d" "$drepobranch"
 
 # Pulseaudio, if/when initially installed, often needs a restart to work immediately.
 [ -f /usr/bin/pulseaudio ] && resetpulse

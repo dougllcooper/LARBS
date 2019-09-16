@@ -7,8 +7,9 @@ Modified from Luke's original in the following ways:
    email, and calendar. Couldn't get calcurse to sync
    with gmail. Sync worked up to the authcode, then no
    connection afterward.
-2. Added emacs with doom-emacs installed on top. Doom emacs not
-   installed with script.
+2. Added emacs with doom-emacs installed on top. Doom emacs
+   is installed by LARBS script. Run ".emacs.d/bin/doom refresh"
+   after installation will set everything up.
 3. Utilities added used by doom emacs layers.
 4. libreoffice, gimp, and a bunch of utilities used by
    different things.
