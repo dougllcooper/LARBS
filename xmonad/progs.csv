@@ -11,7 +11,7 @@
 ,texinfo,"is the legendary info sysytem for unix/linux."
 # Rest of stuff from LARBS
 ,xmonad,"is a haskell based window manager."
-,xmonad-contribs,"contains most of the addons for xmonad."
+,xmonad-contrib,"contains most of the addons for xmonad."
 ,xmonad-utils,"is a small collection of X utilities."
 ,xmobar,"is a minimalistic text based status bar."
 A,polybar,"is a fast and easy to use status bar."
