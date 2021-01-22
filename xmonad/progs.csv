@@ -10,7 +10,11 @@
 ,man-pages,"is the basic man pages for the man database."
 ,texinfo,"is the legendary info sysytem for unix/linux."
 # Rest of stuff from LARBS
-,i3-gaps,"is the main graphical user interface and window manager."
+,xmonad,"is a haskell based window manager."
+,xmonad-contribs,"contains most of the addons for xmonad."
+,xmonad-utils,"is a small collection of X utilities."
+,xmobar,"is a minimalistic text based status bar."
+A,polybar,"is a fast and easy to use status bar."
 ,xorg-server,"is the graphical server."
 ,xorg-xwininfo,"allows querying information about windows."
 ,xorg-xinit,"starts the graphical server."
